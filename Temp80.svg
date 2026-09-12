@@ -1,0 +1,8 @@
+<svg width="666" height="257" viewBox="71 171 666 257" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#fcfcfc" stroke-width="10" id="svg_1" d="m83.50001,234.00001c0,-27.16895 26.18126,-50 57.33696,-50l518.32608,0c31.1557,0 57.33696,22.83105 57.33696,50l0,132c0,27.16895 -26.18126,50 -57.33696,50l-518.32608,0c-31.1557,0 -57.33696,-22.83105 -57.33696,-50l0,-132z" stroke-linecap="undefined" stroke-linejoin="undefined" fill-opacity="0.0" fill="#fff"/>
+  <text transform="matrix(1 0 0 1 0 0)" font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="132" id="svg_2" y="349.99997" x="123.84376" stroke-width="0" stroke="#fcfcfc" fill="#fcfcfc">Temp 80</text>
+ </g>
+</svg>
