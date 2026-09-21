@@ -1,0 +1,10 @@
+<svg width="200" height="50" viewbox="0 0 200 50" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" version="1.0">
+
+ <g stroke="black" fill="black" >
+  <title>Layer 1</title>
+ <path d="M30,10 h140 a5,5 0 0 1 5,5 v20 a5,5 0 0 1 -5,5 h-140 a5,5 0 0 1 -5,-5 v-20 a5,5 0 0 1 5,-5 z" stroke-width="2" fill="none"/>
+ <text  transform="matrix(1 0 0 1 0 0)" xml:space="preserve" text-anchor="middle" font-family="Noto Sans JP" font-size="30" id="svg_11" y="35" x="100" stroke-width="0" stroke="none" >Energy save</text>
+
+ </g>
+ 
+</svg>
