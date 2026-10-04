@@ -2,7 +2,7 @@
 
  <g transform="scale(2)">
   <title>Layer 1</title>
-  <circle r="120" cx="128" cy="128" fill="none" stroke="#fcfcfc" stroke-width="12" />
-  <text transform="matrix(1 0 0 1 0 0)" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="center" font-family="sans-serif" font-size="168" id="svg_2" y="190" x="36" stroke-width="0" stroke="#fcfcfc" fill="#fcfcfc">76</text>
+  <circle r="120" cx="128" cy="128" fill="none" stroke="#fafafa" stroke-width="12" />
+  <text transform="matrix(1 0 0 1 0 0)" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="center" font-family="sans-serif" font-size="168" id="svg_2" y="190" x="36" stroke-width="0" stroke="#fafafa" fill="#fafafa">76</text>
  </g>
 </svg>
