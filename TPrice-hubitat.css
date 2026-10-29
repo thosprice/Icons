@@ -1,0 +1,35 @@
+
+:root {
+	--nebula-url: url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/nebula/assets/images/bg_nebula.jpg');
+	--evergreen-url: url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/evergreen/assets/images/bg_evergreen.jpg');
+	--coastal-url: url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/coastal/assets/images/bg_coastal.jpg');
+	--smartly-dark-url: url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/smartly-dark/assets/images/bg_smartly-dark.jpg');
+	--smartly-url: url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/smartly/assets/images/bg_smartly.jpg');
+	--studio-dark-url: url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/studio-dark/assets/images/bg_studio-dark.jpg');
+	--bg-studio-url: url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/studio/assets/images/bg_studio.jpg');
+	--bg-wander-url: url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/wander/assets/images/bg_wander.jpg');
+}
+
+/*  Resize the grid-wrapper to make room to show the horizontal scrollbar.  'webkit' items change scrollbar appearance */
+#shadow-grid-wrapper { overflow-y: hidden !important;}
+#grid-wrapper { height: calc(100vh - 70px) !important; overflow-x: scroll !important; overflow-y: auto !important;}
+#grid-wrapper::-webkit-scrollbar { width: 12px; height: 12px; }
+#grid-wrapper::-webkit-scrollbar-track { background: transparent; }
+#grid-wrapper::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 6px; }
+#grid-wrapper::-webkit-scrollbar-corner { background: transparent; } 
+
+.header>.justify-end { padding-right: 114px; }   /* push left from the right edge */
+.header>.justify-end {  transform: translateY(7px); }        /* or nudge them up */
+.dashName { transform: translateY(-7px); } 
+
+#tile-133 {  /* header clock, right justified. This tile has to display a native clock attribute */
+  background-color: rgba(255,255,255,0.0); border-style: hidden;  position: fixed !important;   margin: 0;
+  top: 5px; right:   0px; width: 130px; height: 44px; z-index: 5;          /* the Smartly header is z-index:1 */
+}
+#tile-133 .tile-primary {text-align: right !important;    justify-content: flex-end !important;     padding-right: 12px !important;  box-sizing: border-box !important;}
+
+@media (max-width: 767px) { 
+  #tile-133 { display: none !important; }
+  .header>.justify-end { padding-right: 0px !important; }
+}
+
