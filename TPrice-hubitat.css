@@ -18,6 +18,22 @@
 #grid-wrapper::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 6px; }
 #grid-wrapper::-webkit-scrollbar-corner { background: transparent; } 
 
+/* following code places a clock in the header.
+First, add the following to the list of devices in Settings->Advanced->Layout for the dashboard.
+This should be added to the layout just before the CSS is shown.  
+This will add a native clock tile as Tile-133. If you already have a Tile-133, edit accordingly.
+    {
+      "rowSpan": 2,
+      "template": "clock",
+      "col": 16,
+      "colSpan": 3,
+      "id": 133,
+      "row": 8
+    }
+	
+You can add additional CSS for #tile-133 using Settings->Advanced->CSS 
+*/
+
 .header>.justify-end { padding-right: 114px; }   /* push left from the right edge */
 .header>.justify-end {  transform: translateY(7px); }        /* or nudge them up */
 .dashName { transform: translateY(-7px); } 
