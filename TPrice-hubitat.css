@@ -1,3 +1,9 @@
+/* place the following at the very top of the dashboard Settings->Advanced->CSS
+
+@import url('https://raw.githubusercontent.com/thosprice/Icons/refs/heads/main/TPrice-hubitat.css');
+@import url('/local/TPrice-hubitat.css');
+
+*/
 
 :root {
 	--nebula-url: url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/nebula/assets/images/bg_nebula.jpg');
