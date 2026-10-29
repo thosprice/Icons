@@ -1,6 +1,6 @@
 /* place the following at the very top of the dashboard Settings->Advanced->CSS
 
-@import url('https://raw.githubusercontent.com/thosprice/Icons/refs/heads/main/TPrice-hubitat.css');
+@import url('https://cdn.jsdelivr.net/gh/thosprice/Icons@main/TPrice-hubitat.css');
 @import url('/local/TPrice-hubitat.css');
 
 */
