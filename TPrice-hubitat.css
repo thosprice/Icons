@@ -5,15 +5,18 @@
 
 */
 
-:root {
-	--nebula-url: url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/nebula/assets/images/bg_nebula.jpg');
-	--evergreen-url: url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/evergreen/assets/images/bg_evergreen.jpg');
-	--coastal-url: url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/coastal/assets/images/bg_coastal.jpg');
+/* Link library for github-hosted smartly backgrounds. 
+	Add "html { background-image: url('/local/bg_smartly.jpg'), var(--smartly-url) !important; }", for example,
+	to the dashboard CSS below the import lines to use the local background with github as a fallback for cloud dashboards. */
+:root { 
+	--nebula-url: 	 	url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/nebula/assets/images/bg_nebula.jpg');
+	--evergreen-url: 	url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/evergreen/assets/images/bg_evergreen.jpg');
+	--coastal-url: 		url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/coastal/assets/images/bg_coastal.jpg');
 	--smartly-dark-url: url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/smartly-dark/assets/images/bg_smartly-dark.jpg');
-	--smartly-url: url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/smartly/assets/images/bg_smartly.jpg');
-	--studio-dark-url: url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/studio-dark/assets/images/bg_studio-dark.jpg');
-	--bg-studio-url: url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/studio/assets/images/bg_studio.jpg');
-	--bg-wander-url: url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/wander/assets/images/bg_wander.jpg');
+	--smartly-url: 		url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/smartly/assets/images/bg_smartly.jpg');
+	--studio-dark-url: 	url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/studio-dark/assets/images/bg_studio-dark.jpg');
+	--studio-url: 		url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/studio/assets/images/bg_studio.jpg');
+	--wander-url: 		url('https://raw.githubusercontent.com/ezeek/smartly-skins/master/wander/assets/images/bg_wander.jpg');
 }
 
 /*  Resize the grid-wrapper to make room to show the horizontal scrollbar.  'webkit' items change scrollbar appearance */
@@ -29,28 +32,27 @@ First, add the following to the list of devices in Settings->Advanced->Layout fo
 This should be added to the layout just before the CSS is shown.  
 This will add a native clock tile as Tile-133. If you already have a Tile-133, edit accordingly.
     {
-      "rowSpan": 2,
-      "template": "clock",
-      "col": 16,
-      "colSpan": 3,
       "id": 133,
+      "template": "clock",
+      "rowSpan": 2,
+      "colSpan": 3,
       "row": 8
+      "col": 16,
     }
 	
-You can add additional CSS for #tile-133 using Settings->Advanced->CSS 
+You can add additional CSS for #tile-133 using Settings->Advanced->CSS, say to change the text color or other formatting. 
 */
 
-.header>.justify-end { padding-right: 114px; }   /* push left from the right edge */
-.header>.justify-end {  transform: translateY(7px); }        /* or nudge them up */
-.dashName { transform: translateY(-7px); } 
+.header>.justify-end { padding-right: 114px; }   /* push green check, plus, settings left from the right edge */
+.header>.justify-end {  transform: translateY(7px); }        /* or nudge them down */
+.dashName { transform: translateY(-7px); } 		/* line up the dashboard name vertically with the other elements */
 
-#tile-133 {  /* header clock, right justified. This tile has to display a native clock attribute */
+#tile-133 {  /* Move the clock to the header, right justified. This tile has to display a native clock attribute */
   background-color: rgba(255,255,255,0.0); border-style: hidden;  position: fixed !important;   margin: 0;
   top: 5px; right:   0px; width: 130px; height: 44px; z-index: 5;          /* the Smartly header is z-index:1 */
 }
-#tile-133 .tile-primary {text-align: right !important;    justify-content: flex-end !important;     padding-right: 12px !important;  box-sizing: border-box !important;}
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) { /* hide the clock and move the green check, etc. back if the window is small, like on a phone */
   #tile-133 { display: none !important; }
   .header>.justify-end { padding-right: 0px !important; }
 }
