@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <mask id="sconce-cutout">
+      <rect width="100" height="100" fill="white" />
+      <!-- Cutouts separating the backplate, cones, and center collar -->
+      <path d="M 39 10 L 67 10 L 60 44 L 46 44 Z" fill="none" stroke="black" stroke-width="5" stroke-linejoin="round" />
+      <rect x="47" y="43" width="12" height="10" fill="none" stroke="black" stroke-width="4" />
+      <path d="M 45 52 L 61 52 L 69 90 L 37 90 Z" fill="none" stroke="black" stroke-width="5" stroke-linejoin="round" />
+    </mask>
+  </defs>
+
+  <g mask="url(#sconce-cutout)" fill="currentColor">
+    <!-- Circular Wall Backplate (offset slightly left) -->
+    <circle cx="42" cy="54" r="17" />
+    <!-- Top Cone Shade -->
+    <path d="M 39 10 L 67 10 L 60 44 L 46 44 Z" />
+    <!-- Center Neck Collar -->
+    <rect x="47" y="43" width="12" height="10" />
+    <!-- Bottom Cone Shade -->
+    <path d="M 45 52 L 61 52 L 69 90 L 37 90 Z" />
+  </g>
+</svg>
