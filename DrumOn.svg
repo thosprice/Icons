@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" color="#fcfcfc"
+     viewBox="0 0 64 64">
+
+  <path fill="currentColor"
+        fill-rule="evenodd"
+        d="
+    M32 14
+    C42 14 50 17 50 21
+    V32
+    C50 36.5 42 40 32 40
+    C22 40 14 36.5 14 32
+    V21
+    C14 17 22 14 32 14
+    Z
+
+    M16 32
+    C16 35 23 38 32 38
+    C41 38 48 35 48 32
+    C48 29 41 26 32 26
+    C23 26 16 29 16 32
+    Z
+
+  "/>
+  <ellipse cx="32" cy="32.5" rx="2" ry="1" stroke="currentcolor" fill="currentcolor"/>
+
+</svg>
