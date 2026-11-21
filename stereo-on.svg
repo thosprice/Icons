@@ -3,10 +3,10 @@
  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="512.000000pt" height="320.000000pt" viewBox="0 0 512.000000 320.000000"
- preserveAspectRatio="xMidYMid meet">
+ preserveAspectRatio="xMidYMid meet" color="#FAFAFA">
 
 <g transform="translate(0.000000,320.000000) scale(0.100000,-0.100000)"
-fill="#fafafa" stroke="none">
+fill="currentcolor" stroke="none">
 
 <path d="M2120 3043 l0 -80 72 -7 c120 -11 240 -47 361 -107 305 -154 496
 -432 523 -763 l7 -86 78 0 79 0 0 39 c0 211 -97 477 -236 649 -189 236 -500
