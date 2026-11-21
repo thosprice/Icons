@@ -1,6 +1,6 @@
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" color="#0d0d0d" xmlns:xlink="http://www.w3.org/1999/xlink" 
-	 viewBox="0 0 140 75">
-	<g stroke="currentcolor" fill="currentcolor">
+	 viewBox="0 0 140 85">
+	<g stroke="currentcolor" fill="currentcolor" transform="translate(0,10)">
 	
 		<rect x="10" y="15" width="120" height="30" rx="2" ry="2" fill="none" stroke-width="4"/>
 		<line x1="50" y1="15" x2="50" y2="45" stroke-width="4"/>
