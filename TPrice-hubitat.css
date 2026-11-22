@@ -63,7 +63,7 @@ You can add additional CSS for #tile-## using Settings->Advanced->CSS, say to ch
 
 #tile-133 {  /* Move the clock to the header, right justified. This tile has to display the native clock attribute */
   background-color: rgba(255,255,255,0.0); border-style: hidden;  position: fixed !important;   margin: 0;
-  top: 5px; right:   0px; width: 130px; height: 44px; z-index: 5;          /* the Smartly header is z-index:1 */
+  top: 0px; right:   0px; width: 130px; height: 44px; z-index: 5;          /* the Smartly header is z-index:1 */
 }
 @media (max-width: 767px) { /* hide the clock and move the green check/+/settings back in place if the window is narrow*/
   #tile-133 { display: none !important; }
