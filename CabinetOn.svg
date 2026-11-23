@@ -7,9 +7,9 @@
 		<line x1="90" y1="5" x2="90" y2="55" stroke-width="4"/>
 		
 		<g transform="translate(0,10)">
-			<line x1="44" y1="38" x2="44" y2="28" stroke-width="3" stroke-linecap="round"/>
-			<line x1="56" y1="38" x2="56" y2="28" stroke-width="3" stroke-linecap="round"/>
-			<line x1="96" y1="38" x2="96" y2="28" stroke-width="3" stroke-linecap="round"/>
+			<line x1="43" y1="38" x2="43" y2="28" stroke-width="3" stroke-linecap="round"/>
+			<line x1="57" y1="38" x2="57" y2="28" stroke-width="3" stroke-linecap="round"/>
+			<line x1="97" y1="38" x2="97" y2="28" stroke-width="3" stroke-linecap="round"/>
 		
 			<g stroke-width="4">
 				<line x1="34.1" y1="60.5" x2="36.5" y2="69.1"/>
