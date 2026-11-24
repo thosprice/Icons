@@ -6,9 +6,9 @@
 		<line x1="50" y1="5" x2="50" y2="55" stroke-width="4"/>
 		<line x1="90" y1="5" x2="90" y2="55" stroke-width="4"/>
 		<g transform="translate(0,10)">
-			<line x1="43" y1="38" x2="43" y2="28" stroke-width="3" stroke-linecap="round"/>
-			<line x1="57" y1="38" x2="57" y2="28" stroke-width="3" stroke-linecap="round"/>
-			<line x1="97" y1="38" x2="97" y2="28" stroke-width="3" stroke-linecap="round"/>
+			<line x1="42" y1="38" x2="42" y2="22" stroke-width="3" stroke-linecap="round"/>
+			<line x1="58" y1="38" x2="58" y2="22" stroke-width="3" stroke-linecap="round"/>
+			<line x1="98" y1="38" x2="98" y2="22" stroke-width="3" stroke-linecap="round"/>
 			
 			<path fill="none" stroke-width="4" d="M 22 45 A 8 8 0 0 0 38 45"/>
 			<path fill="none" stroke-width="4" d="M 62 45 A 8 8 0 0 0 78 45"/>
